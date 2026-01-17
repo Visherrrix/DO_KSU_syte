@@ -46,11 +46,6 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-} 
-
 .nav-menu {
     display: flex;
     flex-wrap: wrap; 
@@ -88,7 +83,7 @@ body {
 /* Кнопка */
 .btn {
     display: inline-block;
-    background-color: #007bff;
+    background: linear-gradient(rgb(59, 151, 187), rgb(31, 38, 77));
     color: white;
     padding: 12px 30px;
     text-decoration: none;
