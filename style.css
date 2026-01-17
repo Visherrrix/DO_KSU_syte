@@ -85,14 +85,8 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 } 
 
-
-
-
-
-
-
-/* кнопка */
-/* .btn {
+/* Кнопка */
+.btn {
     display: inline-block;
     background-color: #007bff;
     color: white;
@@ -100,20 +94,10 @@ body {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
-} */
-
-/* анимация */
-/* .nav-menu a:hover {
-    background-color: #555;
-}
-
-.feature-card:hover {
-    transform: translateY(-5px);
-}   */
-
+} 
 
 /* Галерея на Grid */
-/* .gallery {
+.gallery {
     padding: 60px 20px;
     background-color: #f9f9f9;
     text-align: center;
@@ -131,63 +115,4 @@ body {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    /* transition: transform 0.3s; */
-/* }  */
-/* 
-.gallery-item:hover {
-    transform: scale(1.03);
-} */
-
-/* .gallery-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-}
-
-.gallery-item p {
-    padding: 15px;
-    margin: 0;
-}
-
-.carousel input {
-    display: none;
-}
-
-.slides {
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    padding: 30px;
-    text-align: center;
-    background: white;
-    min-height: 200px;
-}
-
-.slide {
-    display: none;
-}
-
-#slide1:checked ~ .slides #slide-1,
-#slide2:checked ~ .slides #slide-2,
-#slide3:checked ~ .slides #slide-3 {
-    display: block;
-}
-
-.carousel-controls {
-    margin-top: 15px;
-    justify-self: center;
-}
-
-.dot {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-#slide1:checked ~ .carousel-controls label[for="slide1"] { background: black; }
-#slide2:checked ~ .carousel-controls label[for="slide2"] { background: black; }
-#slide3:checked ~ .carousel-controls label[for="slide3"] { background: black; } */ */
+} 
